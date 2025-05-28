@@ -14,6 +14,7 @@ const App: React.FC = () => {
         
         <Route path="/cart1" element={< Cart/>} />
         <Route path="/cart3" element={< Cart/>} />
+        <Route path="/cart4" element={< Cart/>} />
       </Routes>
     </Router>
   )
