@@ -2,6 +2,7 @@ import React from 'react'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import Login from './components/Login'
 import ShoppingDashboard from './pages/ShoppingDashboard'
+import Cart from './components/Cart'
 
 const App: React.FC = () => {
   return (
@@ -9,6 +10,7 @@ const App: React.FC = () => {
       <Routes>
         <Route path="/" element={<Login />} />
         <Route path="/dashboard" element={<ShoppingDashboard />} />
+        <Route path="/cart" element={< Cart/>} />
       </Routes>
     </Router>
   )
