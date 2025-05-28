@@ -13,6 +13,7 @@ const App: React.FC = () => {
         <Route path="/cart" element={< Cart/>} />
         
         <Route path="/cart1" element={< Cart/>} />
+        <Route path="/cart3" element={< Cart/>} />
       </Routes>
     </Router>
   )
